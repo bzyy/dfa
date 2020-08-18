@@ -33,3 +33,6 @@ d.Add("王八蛋")
 d.AddSkip("。")
 fmt.Println(d.Filter("王。八蛋.")) // => ****.
 ```
+
+## reference
+- https://www.cnblogs.com/JentZhang/p/12718092.html
