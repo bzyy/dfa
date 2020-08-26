@@ -37,3 +37,11 @@ func TestDfa(t *testing.T) {
 	}
 
 }
+
+func TestNewDFA(t *testing.T) {
+	d := NewDFA()
+	d.Add("sb")
+	if got := d.Filter("sb");got != "**"{
+		t.Errorf("got %s want **", got)
+	}
+}
